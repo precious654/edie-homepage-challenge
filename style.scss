@@ -1,0 +1,291 @@
+@import "config";
+@import "desktop";
+@import "mobile";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  inline-size: 80%;
+  margin: auto;
+  font-family: $font-one;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-block-start: 20px;
+
+
+
+  .navbar-brand{
+    font-family: $font-two;
+    font-weight: bolder;
+    font-size: 21px;
+  }
+
+  a{
+    text-decoration: none;
+    color: $gray-one;
+  }
+
+  ul{
+    list-style: none;
+    display: flex;
+
+    li{
+      margin-inline-end: 3rem;
+      font-size: 16px;
+    }
+
+  }
+
+}
+
+.section-one{
+
+  p{
+    color: $blue;
+  }
+
+  h1{
+    font-weight: bolder;
+  }
+
+}
+
+.image{
+  border-radius: 12px;
+}
+
+.section-two{
+
+  .p-one{
+    color: $gray-two;
+  }
+
+  .p-two{
+    margin-block-start: 20px;
+    color: $gray-three;
+    font-size: 12px;
+    margin-block-end: 6px;
+  }
+
+  input{
+    background-color: $gray-six;
+    color: $gray-four;
+  }
+
+  button{
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+  }
+}
+
+.section-three{
+
+  h1{
+    font-weight: bolder;
+  }
+}
+
+.section-four{
+
+  .item-one{
+    border-radius: 12px;
+    padding: 20px;
+
+    h3{
+      font-weight: bolder;
+      margin-block-end: 20px;
+    }
+
+    p{
+      color: $gray-two;
+      margin-block-end: 20px;
+    }
+
+    button{
+      padding-inline-end: 20px;
+      padding-inline-start: 20px;
+      background-color: $gray-five;
+      color: $gray-three;
+    }
+  }
+
+  .item-three{
+    @extend .item-one;
+  }
+
+  .item-two{
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px 0px #3333331A;
+
+    h3{
+      font-weight: bolder;
+      margin-block-end: 20px;
+    }
+
+    p{
+      color: $gray-two;
+      margin-block-end: 20px;
+    }
+
+    button{
+      padding-inline-end: 20px;
+      padding-inline-start: 20px;
+    }
+  }
+
+  .bg-blue{
+    background-color: $blue;
+  }
+
+  .bg-red{
+    background-color: $red;
+  }
+
+  .bg-green{
+    background-color: #27AE60;
+  }
+}
+
+.section-six{
+
+  .project{
+    font-size: 12px;
+    color: $gray-three;
+  }
+
+  img{
+    border-radius: 12px;
+  }
+}
+
+.section-seven{
+  margin-block-start: 30px;
+  p{
+    font-weight: bold;
+    color: $blue;
+  }
+}
+
+.section-eight{
+
+  .text-one{
+    color: $red;
+  }
+
+  .image1{
+    align-self: center;
+  }
+
+  img{
+    border-radius: 12px;
+  }
+
+  .intro{
+
+    .text-one{
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    h1{
+      font-size: 30px;
+      line-height: 54px;
+    }
+
+    .text-two{
+      font-size: 12px;
+      color: $gray-two;
+    }
+  }
+
+  .pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+
+    .image2{
+      margin-block-end: 2rem;
+    }
+  }
+
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.section-nine{
+
+  h1{
+    margin-block-end: 30px;
+  }
+
+  img{
+    border-radius: 12px;
+  }
+
+  .profile{
+    display: flex;
+
+    .desc{
+      margin-inline-start: 20px;
+
+      .name{
+        font-weight: bold;
+        margin-block-end: 10px;
+      }
+
+      .role{
+        font-size: 13px;
+        color: $gray-three;
+      }
+    }
+  }
+}
+
+footer{
+  background-color: #100E1D;
+  padding: 20px;
+  color: $gray-six;
+
+  h1{
+    font-family: $font-two;
+  }
+
+  ul{
+    list-style: none;
+
+    li{
+      margin-block-end: 10px;
+      font-size: 12px;
+    }
+  }
+
+  button{
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+  }
+
+  .text{
+    font-size: 10px;
+    margin-block-end: 10px;
+  }
+
+  .mine{
+    margin-block-start: 90px;
+    font-size: 12px;
+
+    a{
+      text-decoration: none;
+      color: $gray-six;
+    }
+  }
+}

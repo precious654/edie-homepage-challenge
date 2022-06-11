@@ -1,0 +1,117 @@
+@media (max-width: 767px) {
+
+  .navbar{
+
+    .menu{
+      margin-inline-start: 70px;
+    }
+
+    ul{
+
+      li{
+        display: none;
+      }
+    }
+  }
+
+  .section-one{
+    margin-block-start: 50px;
+    margin-block-end: 20px;
+
+    h1{
+      font-size: 23px;
+    }
+  }
+
+  .section-two{
+    margin-block-start: 10px;
+
+    .p-one{
+      margin-block-start: 10px;
+    }
+  }
+
+  .section-three{
+    margin-block-start: 50px;
+    margin-block-end: 50px;
+  }
+
+  .section-four{
+
+    .item-one{
+      margin-block-end: 50px;
+    }
+
+    .item-two{
+      margin-block-end: 50px;
+    }
+
+    .item-three{
+      margin-block-end: 70px;
+    }
+  }
+
+  .section-five{
+    margin-block-end: 30px;
+
+    h1{
+      font-size: 20px;
+    }
+  }
+
+  .section-six{
+
+    div{
+      margin-block-end: 30px;
+    }
+  }
+
+  .section-seven{
+    margin-block-end: 90px;
+  }
+
+  .section-eight{
+    margin-block-end: 70px;
+
+    .pictures{
+      margin-block-start: 20px;
+    }
+  }
+
+  .section-nine{
+    margin-block-end: 50px;
+
+    h1{
+      font-size: 20px;
+    }
+  }
+
+  footer{
+
+    .input-group{
+      position: relative;
+    }
+
+    button{
+      position: absolute;
+      right: 60px;
+    }
+
+    .list{
+      margin-block-end: 30px;
+    }
+
+    .edie{
+      margin-block-end: 30px;
+    }
+
+    .text{
+      color: $gray-three;
+    }
+
+    .mine{
+      text-align: left;
+    }
+  }
+
+}

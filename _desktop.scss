@@ -1,0 +1,116 @@
+@media (min-width: 768px) {
+
+  .navbar{
+    margin-block-end: 100px;
+
+    .menu{
+      display: none;
+    }
+  }
+
+  .section-one{
+    inline-size: 25%;
+    margin-inline-start: 160px;
+    margin-block-end: 30px;
+
+    h1{
+      font-size: 27px;
+    }
+
+  }
+
+  .section-two{
+    inline-size: 25%;
+    margin-inline-start: 160px;
+    margin-block-end: 30px;
+    margin-block-start: 50px;
+
+    .p-one{
+      margin-block-start: 30px;
+    }
+
+    h1{
+      font-size: 30px;
+    }
+  }
+
+  .section-three{
+    inline-size: 25%;
+    margin-block-start: 100px;
+    margin-block-end: 100px;
+
+    h1{
+      font-size: 30px;
+    }
+  }
+
+  .section-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    margin-block-end: 150px;
+  }
+
+  .section-five{
+    inline-size: 25%;
+    margin-block-end: 50px;
+  }
+
+  .section-six{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+
+    .down{
+      padding-block-start: 100px;
+    }
+  }
+
+.section-seven{
+  text-align: right;
+  margin-block-end: 130px;
+}
+
+.section-eight{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin-block-end: 120px;
+
+  .intro{
+    inline-size: 50%;
+  }
+}
+
+.section-nine{
+  inline-size: 50%;
+  margin-block-end: 130px;
+
+
+
+}
+
+footer{
+
+  .footer{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .input-group{
+      position: relative;
+    }
+
+    button{
+      position: absolute;
+      right: 160px;
+    }
+  }
+
+  .mine{
+    text-align: center;
+  }
+
+}
+
+}
